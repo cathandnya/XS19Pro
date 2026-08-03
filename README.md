@@ -776,7 +776,6 @@ XS19Pro/
 ├── README.md                    本総合報告書
 └── 報告書/
     ├── 01_静的解析.md           ファームウェアダンプの静的解析
-    ├── 02_実機フォレンジック.md  稼働中実機のADB調査
     └── 03_帰属分析.md           公開情報との照合・ファミリー判定
 ```
 
@@ -787,7 +786,6 @@ XS19Pro/
 | 資料 | 内容 | 非公開の理由 |
 |---|---|---|
 | マルウェア検体 | 第1段・第3段A・第3段Bの各JAR、改竄済み `libandroid_runtime.so`(arm64/arm32)、`AiotFota.apk`、`HeilsFaceUnlock.apk` | 稼働可能な検体であるため。ハッシュは §12 に記載 |
-| 実機 bugreport | dexopt記録・ブロードキャスト登録・logcat・通信統計 | 端末所有者のアカウント名、Wi-Fi の SSID / BSSID を含む |
 | 第三者の解析リポジトリ | [chiptuneXT/INOI-Triada](https://github.com/chiptuneXT/INOI-Triada) の複製 | 原著作物であり、リンクで足りるため。別端末の実IMEIを含む |
 
 検体の提供が必要なセキュリティベンダ・研究者は、Issue 経由でご連絡いただきたい。
