@@ -1,5 +1,7 @@
 # XS19Pro マルウェア調査 総合報告書
 
+[![YouTube](https://github.com/user-attachments/assets/63419fda-8525-42f8-96df-454d91463339)](https://youtu.be/KCAYqIfZnq4)
+
 **調査対象:** SOYES XS19 Pro(MediaTek MT6765 / Android 12 / SDK 31)
 **端末シリアル:** `XS19PRO＜シリアル秘匿＞`
 **調査期間:** 2026-07-30 〜 2026-07-31
